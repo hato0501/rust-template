@@ -6,6 +6,10 @@ fn main() {
         b: i32,
     }
 
-    let answer = if a % 2 == 0 || b % 2 == 0 { "Even" } else { "Odd" };
+    let answer = if a % 2 == 0 || b % 2 == 0 {
+        "Even"
+    } else {
+        "Odd"
+    };
     println!("{}", answer)
 }
